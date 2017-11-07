@@ -3,7 +3,7 @@
 ## Introduction
 Yahoo Finance recently (Nov 1, 2017) turned off its API that allowed users to get stock and mutual fund quotes.  That meant that any program that used Yahoo to get quotes would no longer be able to get updated prices.  By default GnuCash uses the perl module Finance::Quote to query Yahoo.
 
-This script gets stock quotes from Google and updates GnuCash.  It is an ugly workaround.  Your first course of action should be to check out the Finance::Quote or GnuCash mailing lists to see if this problem has been solved in a proper manner.
+This script gets stock quotes from Google and updates GnuCash.  It is an ugly workaround.  Before you run this your first course of action should be to check out the Finance::Quote or GnuCash mailing lists to see if this problem has been solved in a proper manner.
 
 The script works for me, but it is particular to my situation.  Please read all prerequisites and take them seriously.
 
