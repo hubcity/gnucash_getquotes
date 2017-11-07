@@ -19,7 +19,9 @@ I have tested this script on exactly one configuration.  It may not work for you
 ### Environment
 - Ubuntu 14.04 (other reasonably up-to-date linux installs may work)
 - Ruby 2.4.x
-- GnuCash 2.6.1 running with XML backend (that is what I am running, other 2.6.x may be work)
+  - google-api-client
+  - nokogiri
+- GnuCash 2.6.1 running with XML backend (that is what I am running, other 2.6.x may work)
 
 ### GnuCash Data
 - All commodities priced in USD
