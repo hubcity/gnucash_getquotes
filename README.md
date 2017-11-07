@@ -29,4 +29,4 @@ I have tested this script on exactly one configuration.  It may not work for you
 
 `ruby getquotes_google.rb` will read your commodities from your GnuCash file and create a Google Sheet.
 
-`ruby getquotes_google.rb update_gnucash` will read your commodities from your GnuCash file, create a Google Sheet and update your GnuCash XML file.
+`ruby getquotes_google.rb update_gnucash` will read your commodities from your GnuCash file, create a Google Sheet and update your GnuCash XML file.  To run this script you have to shut down GnuCash first.
