@@ -5,23 +5,22 @@ Yahoo Finance recently (Nov 1, 2017) turned off its API that allowed users to ge
 
 This script gets stock quotes from Google and updates GnuCash.  It is an ugly workaround.  Before you run this your first course of action should be to check out the Finance::Quote or GnuCash mailing lists to see if this problem has been solved in a proper manner.
 
-The script works for me, but it is particular to my situation.  Please read all prerequisites and take them seriously.
+The script works for me, but it is particular to my situation.
 
 ## Prerequisites
 I have tested this script on exactly one configuration.  It may not work for you.
 
 ### You
-- Be a developer
 - Have a Google account
 - Request API credentials from Google
 - Be able to restore a backup from GnuCash in case things go horribly wrong
 
 ### Environment
-- Ubuntu 14.04 (other reasonably up-to-date linux installs may work)
+- Ubuntu 14.04
 - Ruby 2.4.x
   - google-api-client
   - nokogiri
-- GnuCash 2.6.1 running with XML backend (that is what I am running, other 2.6.x may work)
+- GnuCash 2.6.1 running with XML backend
 
 ### GnuCash Data
 - All commodities priced in USD
